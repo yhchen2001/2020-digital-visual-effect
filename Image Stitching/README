@@ -1,0 +1,10 @@
+# README
+
+## 執行方式
+
+壓縮包解壓縮後不要更改資料夾，然後執行：
+
+python3 image_stitching.py <focal length>
+
+後面的參數就是focal length，比較適合的focal length大約是3600~4000，但是我們跑完最好的一張之後就忘記focal length是多少了....所以這個值跑出來的可能會跟我們的result.png有點不一樣，可能某些線條會接的沒那麼好，但大致上還是一樣的。
+這樣，在data下就會有一個叫result的資料夾，裡面的result.png就是我們最終的成果
